@@ -1,0 +1,93 @@
+import java.text.DecimalFormat; //Import Decimal Format
+import java.util.Scanner;		//Import Scanner Class
+
+
+public class Coffee {
+
+	public static void main(String[] args) {
+		DecimalFormat df = new DecimalFormat("0.00"); 	//Declare Decimal Format
+		int CoffeeBags; //declare the variable			//Declare Int
+		double TotalCost, TotalPrice, TotalDiscount;	//Declare Doubles
+		
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("This program computes the amount of discount");
+		System.out.println("given to the customers of IT125 Coffee Company.");
+		System.out.println("Discounts are listed below.");
+		System.out.println("    Order Volume \t Discount");
+		System.out.println("--------------------------------------");
+		System.out.println("    >=   25 Bags \t 5%");
+		System.out.println("    >=   50 Bags \t 10%");
+		System.out.println("    >=   100 Bags \t 15%");
+		System.out.println("    >=   150 Bags \t 20%");
+		System.out.println("    >=   200 Bags \t 25%");
+		System.out.println("    >=   300 Bags \t 30%");	//Print out the static information
+		
+		
+		
+		System.out.print("Enter number of coffee bags purchased: ");
+		CoffeeBags = input.nextInt();					//User Input
+		
+		if (CoffeeBags >= 25 && CoffeeBags <50)			//First If statement. Limits input to 49
+		{
+			TotalCost = (5.50 * CoffeeBags);			//Calculate Initial Cost
+			TotalDiscount = ((TotalCost / 100) * 5);	//Calculate Discount
+			TotalPrice = ((TotalCost / 100) * 95);		//Calculate Price
+			System.out.print("Number of Bags Oredered : "); System.out.print((CoffeeBags));	//Prints Text and User Input
+			System.out.println((String) " - € " + df.format(TotalCost)); 					//Prints Calculated Total Cost
+			System.out.println("\t       Discount : 5% - € " + df.format(TotalDiscount));	//Prints Total Discount
+			System.out.println("     Your Total Cost is : € " + df.format(TotalPrice));		//Prints Total Price
+		}		
+		else if (CoffeeBags >=50 && CoffeeBags <100) 	//Else If statement. Limits input to 99
+		{
+			TotalCost = (5.50 * CoffeeBags);			//Calculate Initial Cost
+			TotalDiscount = ((TotalCost / 100) * 10);	//Calculate Discount
+			TotalPrice = ((TotalCost / 100) * 90);		//Calculate Price
+			System.out.print("Number of Bags Oredered : "); System.out.print((CoffeeBags));	//Print Text and User Input
+			System.out.println((String) " - € " + df.format(TotalCost)); 					//Prints Calculated Total Cost
+			System.out.println("\t       Discount : 10% - € " + df.format(TotalDiscount));	//Prints Total Discount
+			System.out.println("     Your Total Cost is : € " + df.format(TotalPrice));		//Prints Total Price	
+		}
+		else if (CoffeeBags >=100 && CoffeeBags <150)	//Else If statement. Limits input to 149 
+		{
+			TotalCost = (5.50 * CoffeeBags);			//Calculate Initial Cost
+			TotalDiscount = ((TotalCost / 100) * 15);	//Calculate Discount
+			TotalPrice = ((TotalCost / 100) * 85);		//Calculate Price
+			System.out.print("Number of Bags Oredered : "); System.out.print((CoffeeBags));	//Prints Text and User Input
+			System.out.println((String) " - € " + df.format(TotalCost)); 					//Prints Calculated Total Cost
+			System.out.println("\t       Discount : 15% - € " + df.format(TotalDiscount));	//Prints Total Discount
+			System.out.println("     Your Total Cost is : € " + df.format(TotalPrice));		//Prints Total Price	
+		}	
+		else if (CoffeeBags >=150 && CoffeeBags <200)	//Else If statement. Limits input to 199
+		{
+			TotalCost = (5.50 * CoffeeBags);			//Calculates Initial Cost
+			TotalDiscount = ((TotalCost / 100) * 20);	//Calculate Discount
+			TotalPrice = ((TotalCost / 100) * 80);		//Calculate Price
+			System.out.print("Number of Bags Oredered : "); System.out.print((CoffeeBags));	//Prints Text and User Input
+			System.out.println((String) " - € " + df.format(TotalCost));					//Prints Calculated Total Cost 
+			System.out.println("\t       Discount : 20% - € " + df.format(TotalDiscount));	//Prints Total Discount
+			System.out.println("     Your Total Cost is : € " + df.format(TotalPrice));		//Prints Total Price	
+		}	
+		else if (CoffeeBags >=200 && CoffeeBags <300) 	//Else If statement. Limits input to 299
+		{
+			TotalCost = (5.50 * CoffeeBags);			//Calculates Initial Cost
+			TotalDiscount = ((TotalCost / 100) * 25);	//Calculates Discount
+			TotalPrice = ((TotalCost / 100) * 75);		//Calculates Price
+			System.out.print("Number of Bags Oredered : "); System.out.print((CoffeeBags));	//Prints Text and User Input
+			System.out.println((String) " - € " + df.format(TotalCost)); 					//Prints Calculated Total Cost
+			System.out.println("\t       Discount : 25% - € " + df.format(TotalDiscount));	//Prints Total Discount
+			System.out.println("     Your Total Cost is : € " + df.format(TotalPrice));		//Prints Total Price	
+		}
+		else if (CoffeeBags >=300 && CoffeeBags <1000)	//Else If statement. Limits input to max order
+		{
+			TotalCost = (5.50 * CoffeeBags);			//Calculates Initial Cost
+			TotalDiscount = ((TotalCost / 100) * 30);	//Calculates Discount
+			TotalPrice = ((TotalCost / 100) * 70);		//Calcualtes Price
+			System.out.print("Number of Bags Oredered : "); System.out.print((CoffeeBags));	//Prints Text and User Input
+			System.out.println((String) " - € " + df.format(TotalCost)); 					//Prints Calculates Total Cost
+			System.out.println("\t       Discount : 30% - € " + df.format(TotalDiscount));	//Prints Total Discount
+			System.out.println("     Your Total Cost is : € " + df.format(TotalPrice));		//Prints Total Price	
+			}
+		}																					//End Method
+		
+	}																						//End Class
