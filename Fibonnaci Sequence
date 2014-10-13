@@ -1,0 +1,31 @@
+
+
+import java.util.Scanner;						//import Scanner
+
+public class FibCounter {
+public static void main (String[] args) {
+
+  int number, fibvalue, A = 0, B = 1, C;			//declare ints
+  
+ System.out.println("This program outputs the first N");//print first line
+ System.out.println("numbers in the Fibonacci sequence");//print second line
+ 
+ Scanner scanner = new Scanner(System.in);			//call scanner
+
+	System.out.print("Enter N: ");				//user input
+	number = scanner.nextInt();							//declare int
+	System.out.print("The first ");				//print line
+	System.out.print(number);					//print user input
+	System.out.println(" numbers in the Fibonacci" );	//print line
+	System.out.println("sequence are as follows :");	//print line
+	
+	while (number >0){						//set loop
+	System.out.print("  " + A );				//print before addition in order to show A = 0
+	C = A + B;							//set C to move sequence from left to right
+	A = B;								//move A in sequence
+	B = C;								//move B in sequence
+	number --;							//number decremental
+	
+		}													//end loop
+	}														//end class
+}															//end method
