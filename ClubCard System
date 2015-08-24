@@ -24,5 +24,70 @@ public class Clubcard
     }
 }
 
+using System;
+public class TestCustomer {
+    public static void Main()
+    {
+        Clubcard Customer = new Clubcard();
+        Customer.Name = "Cian Clarke";
+        Customer.Address = "102 Center Street";
+        Customer.LoyaltyPoints = 250;
+        Console.WriteLine("1. To Update Address");
+        Console.WriteLine("2. To Add Loyalty Points");
+        Console.WriteLine("3. To Display Details");
+        Console.WriteLine("4. To Exit");
+        string line = Console.ReadLine(); 
+        double choice;
+        double.TryParse(line, out choice);
+        while (choice < 4) 
+        {
+            if (choice == 1)
+            {
+                Console.WriteLine("Current Address : ");
+                Console.WriteLine(Customer.Address);
+                cAddress(out Customer.Address);
+                Console.WriteLine("New Address : ");
+                Console.WriteLine(Customer.Address);
+            }
+
+            if (choice == 2)
+            {
+                Console.WriteLine(Customer.LoyaltyPoints);
+                cLoyaltyPoints(ref Customer.LoyaltyPoints);
+                Console.WriteLine("New Loyalty Points: ");
+                Console.WriteLine(Customer.LoyaltyPoints);
+                
+            }
+
+            if (choice == 3)
+            {
+                Customer.Display();
+               
+            }
+            else
+            {
+                Console.WriteLine("Error Please Select Again");
+            }
+     
+        }
+        choice = 0;
+    }
+            private static void cAddress(out string Address)
+           {
+                Console.WriteLine("Please Enter New Address: ");
+                string newAddress = Console.ReadLine();
+                Address = newAddress;
+
+            }
+            private static void cLoyaltyPoints(ref int LoyaltyPoints)
+        {
+            Console.WriteLine("Please inupt new Loyalty Points: ");
+            string update = Console.ReadLine();
+            int newLoyaltyPoints;
+            int.TryParse(update, out newLoyaltyPoints);
+            LoyaltyPoints = LoyaltyPoints + newLoyaltyPoints;
+        }
+         
+}
 
 
