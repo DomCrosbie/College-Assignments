@@ -1,0 +1,595 @@
+
+
+ <!DOCTYPE HTML>
+ <html>
+
+ 
+ <style type="text/css">figure {margin: 0;}</style>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lora">
+ <script language="javascript">
+function sned()
+{document.theform.submit()}
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '390',
+      width: '640',
+      videoId: 'M7lc1UVf-VE'
+    });
+  }
+</script>
+ <style type="text/css">
+div.br {
+border: 0;
+height: 1px;
+width: 100%;
+border:0;
+border-bottom:1px;
+border-style: solid;
+border-color: grey;
+}
+ div.hr{
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+
+	}
+div.hr hr {
+  display: "";
+}
+p #Date{
+text-align: center;
+color: #FFDD50;
+}
+.clip {
+	position: absolute;
+	clip: rect(200px, 100px, 100px, 100px);
+ }
+h2 {
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-family
+}
+p1 {
+text-align: center;
+font-style: italic;
+line-height: 190%;
+}
+p2 {
+font-family: lora, bitter, arvo, droid serif;
+font-size: 14px; 
+letter-spacing: 1px; 
+line-height: 150%;
+text-align: left;
+}
+h1 {
+font-family: lora;
+}
+ #title-image {
+     display:block;
+ }
+.sfm input {background-color: #f5f5f5; 
+    font-size: 8px; 
+    border: 1px solid #000; 
+    text-transform: uppercase; 
+    margin-top: 0px; 
+    color: #999; 
+    letter-spacing: 1.5px; 
+    padding: 8px 12px;
+    font-family: calibri, helvetica, arial;}
+#sb {height: 10px;
+	vertical-align: top; }
+	p3 {
+	font size: 10px;
+	vertical-align: top; 
+	background-color: black;
+	border: 1px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-family: calibri, helvetica, arial;
+	color: white;
+	text-align: center;
+	}
+a {color: black; }
+a:hover {color : grey;
+	}
+th.outline {
+	border: 1px solid black;
+	}
+
+
+
+ 
+ </style>
+<title> NUIG StyleSoc </title> <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=nuigstyle" />
+<link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=nuigstyle" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=6d92575a6d1cddce7fefd8b949f1b4a4"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="NUIG STYLE" /><meta property="og:url" content="http://nuigstyle.tumblr.com/?og=1" /><meta property="og:description" content="" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_2644e2bc0bb9_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=nuigstyle" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=nuigstyle" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="nuigstyle" /><meta name="twitter:description" content="Tumblr Blog" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=nuigstyle&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=nuigstyle&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=nuigstyle&amp;referrer=twitter-cards" />
+
+<!-- GOOGLE CAROUSEL --><script type="application/ld+json">{"@type":"ItemList","url":"http:\/\/nuigstyle.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/nuigstyle.tumblr.com\/post\/108720679943\/personal-style"}],"@context":"http:\/\/schema.org"}</script>
+</head>
+<body bgcolor="#FFFFFF">
+<table border="0!">
+<tr> 
+<td colspan="0" width ="6000" height="100" body bgcolor"#FFFFFF">
+<center> <p style="color:black;font-size:80px; font-family: Bodoni MT;">NUIG STYLE
+</p> </center>
+</td>
+
+<tr> <table class="navlist" border="0">
+<td body bgcolor="FFFFFF" width="320" height="150" valign="top">
+</td>
+<td width ="600" height=100% valign="top">
+<div class="hr"> <span> </span> </div> <center>  
+<p id="Date" style="color:#bca474"> 20 April 2015 </center> </p> <center>
+<h2> Beauty Dupes - The Best Of Part One </h2>
+<center>  <p2> <p>
+Du-ops, Du-jubes, call it what you may, each time I come across an article entitled “Dupe of…” I get ever so excited. I love beauty products of all shapes and forms. Over time I have tried lots of new pharmacy launches and discovered great alternatives to higher end counterparts. In this two part series I am going to share some of these with you. To begin, a closer look at face products including foundation, powder and blusher. 
+</p> </p2> <p1> L’Oreal true match foundation for Giorgio Armani Luminous silk foundation   
+</p1> </center>
+<img src="https://lh4.googleusercontent.com/-Qb6y-htDF2WhdfTV-XPogI3j2tHC2jjUDnd667gVnMFesRPeUepWG1kV6uFZzDVfZsRW3YnYTZAWZf1py2ZFbWhQHDL2ChGD6pM1aesEXSK5HYajCcMP_1amoBBPdVBxhMkLoIShqDEABCo" style="padding:5px;" width="200px" height="300px">
+<img src="https://lh4.googleusercontent.com/ucA5b78cLRzmKuGGkzVRGs_1Rdmy57pC64sVdF2sgZ6tVMjUwq7lqWN0IYMNUtzHeAsPphk647_NCEngQUAlVXJzNERfDQEM_ih5bm5wrkDmoWxVGKJKWgpddHvXtuz1C5dLC9AcnDQkUNXo" style="padding:5px;" width="200px" height="300px">
+<p2> <p>
+This pharmacy <a href="http://www.boots.ie/en/LOreal-Paris-True-Match-Foundation_16049/"> alternative </a> is a very close match (no pun intended) for its high end counterpart which is priced at a cool €45. L’Oreal’s offering provides medium long lasting coverage and has an excellent shade selection with boots currently stocking 20 shades .The pièce de résistance; it’s price €14.99.
+ </p> </p2>
+ <p1> <center> Revlon colorstay foundations for MAC studio fix fluid SPF15 foundation   </center>
+ <img src="https://lh5.googleusercontent.com/2H5rgFjWwRc6Jd-IjIqUtQJ_krSzeCbNg-gH4VMByo82SWHKVl5Dl3LZkmp3pGBfYQ2jxWkUgEJY10vNWNeAi1BaKoKEdwKYQ-i2GClN-FWptFgEsbpgig33dGMnN1gm6SV8dYyj1aBNV5Gc" style="padding:5px;" width="200px" height="300px">
+<img src="https://lh3.googleusercontent.com/mHjwjoYeKGN0xYnWVSfWFK95VoIGLxnznz-lD4YPd3IvpeknemYKWJNPPRz4tuScXkmOQHj91xEz_kOkMa670LG2w3Ao9_Iobkzq6cLiriIvV0QwBdy1EdWOyvPsniX7WHd45nirdt6UZiTh"  style="padding:5px;" width="200px" height="300px">
+<p2> <p>
+This <a href="http://www.boots.ie/en/Revlon-ColorStay-Makeup-For-Normal-Dry-Skin_39474/"> Revlon </a> foundation currently priced at €17.79 is highly acclaimed winning several accreditations including best drugstore foundation in Temptalia’s Reader Awards 2013. It provides medium to full coverage with semi-matte to matte finish. When I don’t want full coverage I apply the product using a damp sponge for example a beauty blender.
+ </p> </p2> <p1> <center>The Body Shop Vitamin E Cool BB Cream for Laura Mercier tinted moisturizer spf 20  </center>
+<img src="https://lh4.googleusercontent.com/tjliHMEfL0gra0h0sGmJPcITpqHj0CxiSwgQP8izli6_UGaT92WoSTDYOPQt3KELOGme87DKzGxwEStQ2lA7-y876se2Q8pVzJ6iiD9-aQEMwZ2sQvNMRL7dlVou6qOtfC_UFIwdO6uxio4g" 	style="padding:5px;" width="200px" height="300px">
+<img src="https://lh3.googleusercontent.com/j6i9KqhiY_DbeRAeBs5PU4Kna6DvVOFC2uRakhPD14ECwPeLYQhFpDbApK3EoX4E17GkSJnj9CSWUTv5mwS7T6a0-qVovHiqFRKllBY3NHLZGyrq5mzeHKLOZ6ky71Fx6-m6RekWWCAryaBx"	style="padding:5px;" width="200px" height="300px">
+<p2> <p>
+A personal favourite of mine this lightweight BB cream is a perfect dupe for Laura Mercier’s tinted moisturizer. While the latter is priced at €48, this budget-friendly version comes in at €14.95. I use The Real Techniques buffing brush to apply the product which transfers onto skins flawlessly. It offers lightweight coverage ideal for use during the day or indeed in the summer months.
+ </p> </p2> <p1> <center> Bourjois Healthy Balance Compact Powder for Chanel Poudre Universelle Libre Natural Finish Loose Powder </center>
+ <img src="https://lh3.googleusercontent.com/Dst_5lNVPIorNR_IX109nKZpWAjnfCKg6riXIZvBF1RVhdI9CO1KwZnfFv90_khePDrbr41DVcYp7Hl97Rv4GcROA6EQgKFhgBZc6c2xAxf9n8ugiA6BlCGfLKk4ngAghS7xw2_2UbpLn5Mq" 	style="padding:5px;" width="200px" height="300px">
+<img src="https://lh5.googleusercontent.com/6mBuyZDPDUOKvd6hAQIRjvHf-WavVaLTUorT9b1N3FvIfokUN3HHQrqUW--1B4e8wqmMGmgzk1F1pD56JPN5GdtTRLKHLvQ6yQ_hP-1EEMtcfnXaIA9Kf1cg8NfWQ7TJXZcM2dyOTx1tjLqI"	style="padding:5px;" width="200px" height="300px">
+<p2> <p>This <a href="http://www.boots.ie/en/Bourjois-Healthy-Balance-Compact-Powder_1244985/"> powder </a> is lightweight, ideal for setting concealer and won’t appear heavy on the skin. It has fewer shades to choose from; 4 compared with Chanel’s 10 but at €11.99 compared with €44- need I say anymore?
+ </p> </p2> <p1> <center>
+Max Factor Creme Puff Blush for MAC Mineralize Blush </center>	
+<img src="https://lh5.googleusercontent.com/QDyumbkGvUoWYy-PpuP_4yyAW9BSefBGqitBWLjl1ZmlsLwLc3i3HxtUmahCNMmI9pdCA3MYO9b9S4zaEI8ZA8fh6uQ_aTQSzMaJqdSGIqpFUQIo6PDq1Mg2_rUD72Fnu_7HZ146eSoTzwNZ" 	style="padding:5px;" width="200px" height="300px">
+<img src="https://lh4.googleusercontent.com/KZXrIewYzGXg0301SvaH8LEyp5LTgRzKvUg0YtRuFXdzRkv2R2zPK0r-5Yg9pcApaa4UKYMgNZpW_zHeZaVz2dqf7tSLCA5Hv1S6MBGOwDEEu6zJ-p1s1N1OlfoEp4nzAaxB6cmFs7qAe4m5" style="padding:5px;" width="200px" height="300px">						
+<p2> <p> <a href="http://www.boots.ie/en/Max-Factor-Creme-Puff-Blush_1639993/">Max Factor’s </a> new launch appears very natural on the skin. Lovely pink is a favourite of me with it peach pink colour it adds a hint of highlighter when applied. The product has several colours and retails at €11.49
+ </p> </p2> <p1> <center>Topshop Beauty Glow Highlighter Pot for NARS Multiple</center>
+<img src=" https://lh5.googleusercontent.com/25UFRbRmbcf5fmWxUBJk47jx6ggsUdlpw3NycMIIsVv5POyWKPTDdyc5AuNcKHLn7IkE9vqCNaIqFQovKlm2rJ_UFX_XwLlumBCEF8T9Pr8YR3CcBjY7Oen8OPyDmaLVBU01-bqBMbuukI1H" style="padding:5px;" width="200px" height="300px">
+<img src=" https://lh6.googleusercontent.com/JEY_bze9DuOFlDL60FG0MlP9thUovA4KMYPncJMgwH6WtRT04c21jFmTqe-T6jr63kX6xbHENyUhrJm1h1UpccxmjBAsRgExt9R-rfKO04mNXwxswguz7QKU_KnhhLusM4mVUSCf-X9O-6pV" style="padding:5px;" width="200px" height="300px">
+<p2> <p>The high street store’s product offers glitter free radiance to the skin at a fraction of the price of NARS’s offering which retails at €41.
+ </p> </p2> <p1> <center>  Rimmel Wake me up Concealer </center>
+ <img src="https://lh5.googleusercontent.com/vOcXOLBxxwmD6xgdKHOc8S5I6TjVUW6fzJzYxeVL7F0qo33bkelKeabmggw7EU2XLoggQ9wshvwHqMusXFleX8EpI3ANnj1T3FrnTdLnx-OKpg1nXMbBOpfL-1ktZw8EOdK8fedvfgT21pXK" style="padding:5px;" width="200px" height="300px">
+<p2> <p>Although technically not a dupe this <a href="http://www.boots.ie/en/Rimmel-Wake-Me-Up-Concealer_1253837/"> concealer </a> is worth a mention. It has four shades (I use the lightest shade; Ivory) and conceals under eye circles, blemishes and spots. It contains peptides and a vitamin moisturizing complex. It creamy in texture but not cakey and remains my first choice of concealer.
+</p> <p>What are your pharmacy beauty alternatives?
+</p> </p2>
+<div class="hr"> <span> </span> </div> <center>  
+<p id="Date" style="color:#bca474"> 19 April 2015 </center> </p> <center>
+<h2> Study Break Baking </h2> <center> <p1> -WARNING, IT MAY GIVE YOU ADDICTION- </p1> </center>
+<p> <p2> What do shopping and studying have in common? Apparently nothing, but if you think better about it…they make us HUNGRY. 
+</p> <p2> <p>As for me, they make me craving for chocolate. I used to end up having A LOT of breaks with my favorite cookies. A few months ago, I was browsing recipes on YouTube and I found the perfect solution to all my “little cravings”- a “mugcake”. 
+</p> <p2> <p> In particular, my attention was captured by an Irish chef, Gemma Stafford, whose video had more than 2 million views- She’s definitely the Queen of Mugcakes!
+</p> <p2> <p> 
+So, what is a Mugcake? Easy said and done, it’s a little cake baked inside your favorite mug using your best friend- the microwave. Everybody can do it, no special skills required lads. The best part is, you can also make a cookie! Say goodbye to the 69c ones. 
+</p> <p2> <p> Now, grab a spoon and the craziest mug you’ve got and follow the Queen’s steps:
+</p> </p2>
+<iframe width="520" height="390"
+  src="https://www.youtube.com/embed/PhMC08gDXTA">
+ </iframe>
+  <br>
+ <iframe id="ytplayer" type="text/html" width="520" height="390"
+  src="https://www.youtube.com/embed/8MscAxRx6Zo">
+  </iframe>
+ <p> <p2>In her videos, there’s a recipe for everybody. Try this if you’re vegan and allergic to gluten:
+</p> </p2>
+<p1> <center> CHOCOLATE BROWNIE MUG CAKE 
+Makes 2 Cakes
+<br>
+INGREDIENTS <br>
+1/2 cup gluten free flour (oat flour,nut flour, spelt flour etc) <br> 
+1/2 cup sugar or raw sugar <br>
+4 Tbsp cocoa (natural, unsweetened) <br>
+1/2 cup coconut milk <br>
+4 Tbsp Coconut oil (or any flavorless oil, canola or vegetable) <br>
+<br>
+Coconut ice cream to serve
+</p1> </center>
+<p2> <p> Mugcookies:
+</p2> </p>
+ <iframe id="ytplayer" type="text/html" width="520" height="390"
+  src="https://www.youtube.com/embed/zrVMHlQS4hY"> </iframe>
+ <p2> <p> 
+These little goodies are the perfect reward for the dullest afternoon as well as for every situation that requires our own celebration. If you have a giant mug you can consider sharing it.. but my guess is that you may not to!
+by Valentina Venturi
+</p2> </p>
+<div class="hr"> <span> </span> </div> <center>  
+<p id="Date" style="color:#bca474"> 28 March 2015 </center> </p> <center>
+<h2>  Does your skin-care care about you? </h2>
+<center>
+<img src="https://lh6.googleusercontent.com/1wron-ERH1nM10p0lwIc8CrKhaPAGEqQEaUugEfmboMH15yWHAOyZaaiKYEjs3FG7zzwqgLCLh1JsnNdWRXLt0aocmCchlnN7O72G5aKQDOpnrTUCSOt_fClQpqZiv0dDi7edL4" style="padding:5px;" width="400px" height ="100px">
+ <p2> <p>
+We all go to extensive lengths to protect our skin. Acne creams, moisturisers, cleansers etc. have all become part of our daily skin care. Everyone is fighting against aging, blemishes and striving to have that 'healthy glow'. What if these product though are doing more harm than good?
+A huge amount of cosmetics contain ingredients such as lead, mercury and even parabens (which have been linked to cancer). A scary thought right? Luckily there is now a way to avoid these toxins. CosmEthics is an up-coming app which will allow you to scan the barcode of your products and by cross-referencing with medical research data it can show you exactly what harmful chemicals it contains. The app also carries out a toxins screening and suggests similar products that are gentler to your body. It is a great way to allow people to be more aware of what they are absorbing into their skin. It can be personalised also to watch of for any specific allergens' you may have or for vegans who wish to stay away from any animal produce certain products may contain.
+For people with sensitive skin like myself, this app could be a life-saver! It will be available on the app store and if you would like to read more about this product log on to <a href="http://www.cosmethics.com/html/" target="_blank"> Cosmethics.com </a>
+ If that's not enough to convince you, remember healthy skin is far more affordable than a good concealer!
+"Beauty is about enhancing what you have. Let yourself shine through!" - Janelle Monáe
+ </p> </p2>
+ <p1> Lorna McLoughlin </p1>
+<div class="hr"> <span> </span> </div> <center>  
+<p id="Date" style="color:#bca474"> 19 March 2015 </center> </p> <center>
+<h2> An Interview with: Flo Dron </h2>
+<center> <p>
+<img src="https://lh6.googleusercontent.com/hf7ergoNgpjqjeWzsH8VhFgiLHtbFPodPN0UMmn6UKm7vmfjJ3opV_Qhnw7aWeSmKTe739BGjtfbRfABg0jdFnQAhj6IWFi4pf3Md9bpTmY_Oz3zIFQcZM9hsHnfz74Z_HDCUDWHtfG1ad3e" style="padding:5px;" width="350px" height="400px">
+ <p1> </p> (Flo Dron, SWAG Summer 2014 Cover, photo by Luca Campri) </p1> </center>
+</p> 
+<p2> <p> Last year I was lucky to become involved with a start-up digital magazine, Swag, while on Erasmus in Budapest. We were a really small team, but it was such great experience to get involved in the beginnings of such a cool venture; meeting fashion editors, overseeing photo shoots, being present at Budapest fashion week, and interviewing amazing artists and industry insiders. I had the chance to interview British model, Flo Dron, who has done editorials and campaigns for ELLE, Dazed & Confused, H&M and who has walked for Jean Paul Gaultier and Alexander McQueen to name a few! I share below the results of my (totally amateur) interview with her for SWAG Magazine.
+</p2> </p>
+<center> <p>
+<img src=" https://lh6.googleusercontent.com/glVeTfZ2xK3lqRPoJRpC6qA3BwJA_TQxdCRDhjEq-3CZZF-pX3thU0ajtSR2hBBvT3GR0clNpEVEnoVf7GTnbXrwm5EPCjf5kZghxnjsKI4TMK-AM5l12HcUgUyFGuNGo4eDxFeE2iFF8UhR" style="padding:5px;" width="350px" height="400px">
+<p1> </p> (Flo Dron for H&M. Photo by Jesse Laitinen) </p1> </center>
+<p2> <p> <b> How did you get into modelling? </b> </p2> </p>
+<p2> <p> I was scouted when I was fairly young, worked for about a year part time when I was 16, had a couple of agencies and then gave up eventually. When I was 19 I starting doing free shoots for fun and did a shoot with a friend of mine Julian Marshall who I am very grateful for introducing me to Select a few months after who have been brilliant!
+</p2> </p>
+<p2> <p> <b> How do you recall your initial experience in the industry?</b> </p2> </p>
+<p2> <p> My first shoot with Select was for Hunger Magazine shot by Rankin, working with three other models Idina Moncrieffe, Sam Rollinson and Fern Thomas. It was fairly surreal to say the least, but fun.
+</p2> </p>
+<p2> <p> <b> You've done some really amazing and interesting editorials to date, which have been most memorable for you? </b> </p2> </p>
+<p2> <p>Thank you! I love editorial work and enjoy a lot of the work I do, I'll always remember a shoot I did for Idol mag when I first started that was just a fun day of jungle music and crazy styling, me and Toby Leonard were made to look like dolls. Another old shoot I'll never forget was working with Brett Lloyd for Girls & Boys magazine just a nice sunny day and good energy in the team. More recently a shoot I did for Tank has just come out by Ren Roxx online, she's really talented. The most memorable shoots for me are always the ones that stand out artistically.
+</p2> </p>
+<center> <p>
+<img src="https://lh4.googleusercontent.com/ZLYLCEWUuUwONm3XVJ0UNnvxXhSlMqlGoWSSmfGk9PmrNrOKiPRPNTpaxhf1vcrWz7OaqZPt4pg4WbMOhcN-dNqfrbbllqoyn_bKvZAMukhNP8Ai5ZIdZIRWeP06ofug0dOaZr5XAXQTxq58" style="padding:5px;" width="350px" height="400px">
+<p1> </p> (Wonderland Magazine: Babes Meet Les Beiges by Samuel John Butt) </p1> </center>
+</p> <p2> <p> <b> How has working in the fashion industry influenced your personal style? Which designers do you admire most? </b> </p2> </p>
+<p2> <p> It's actually had an adverse effect on my personal style for me now fashion and style is work and at home or around close friends I completely let style go out the window. But when I go out I like to try new things now more than before, I used to be pretty gothic only wearing black experimenting with textures and layers and now I am more open to anything, I like experimenting, I love colour and bold statements with clothes. My favourite designer is Alexander McQueen. Hands down, I was very privileged recently to model some of his personal couture recently and his creations are incredible.
+</p2> </p>
+</p> <p2> <p> <b> What do you like to do when you're not working?  </b> </p2> </p>
+<p2> <p> When I am not working I like to relax in my garden to be honest!! I like 'me' time, I meditate and I read a lot of non-fiction, I love finding music, I play piano and I create artwork or write for myself. I am really interested in life and reality. I want to study Theology in the future at university as I am fascinated by spiritual experience and people’s perceptions of reality. I like going out occasionally to music events, but not as much as I used to when I started modelling, I much prefer being with friends at home or their place - it's more personal.
+</p2> </p>
+</p> <p2> <p> <b> If you were to give advice to up and coming models what would you say? </b> </p2> </p>
+<p2> <p> Advice to up and coming models would be trust your agent but don't lose yourself to desperately morph into the 'industry ideal', I say enjoy it but remember it is a job and that money has to be taken seriously. I also advise models who are beginning to earn significant money to save as much as possible...especially models sacrificing education to work, as it isn't a job that lasts forever. Lastly - It can be a high pressure and harsh industry, if it's affecting your self-confidence and happiness, it's not worth it. Otherwise it’s a great opportunity that anyone who is in it doing well should realise how fortunate they are and make the most of it.
+</p2> </p>
+</p> <p2> <p> <b> Do you have a role model or inspiration in the industry? </b> </p2> </p>
+<p2> <p> I actually don’t have any role models in the industry, I am comfortable with who I am and don’t look up to other models for inspiration work or style wise. People who inspire me most are people who really grab life and see it as a journey. I would never try to be like anyone else, as there isn't really any point. I don't like to analyse people into who's better than who, who's doing what and who do I agree with. I find all people interesting, you can learn from everyone in one way or another.
+</p2> </p>
+</p> <p2> <p> <b> What projects would you like to work on in the future? </b> </p2> </p>
+<p2> <p> I have no idea, I would love to do a campaign or step up my editorial work for example Love Magazine or Vogue, but I am fairly laid back about my work.
+</p2> </p>
+</p> <p2> <p> <b> What is the fashion/beauty staple you couldn't live without?  </b> </p2> </p>
+<p2> <p> In London or any big city I couldn't live without my Dead Sea Mineral exfoliating scrub, it was a present from my sister and I love it. I also love Weleda products especially their Skin Food.
+</p2> </p>
+</p> <p2> <p> <b> What’s the most important life lesson your career has taught you so far? </b> </p2> </p>
+<p2> <p> So many life lessons, hard to pin point one, I think the most important would be literally just to be confident being yourself, not to worry about how others view you because the only important thing in life is to be happy within yourself, because if you are, you can do anything you want.
+</p2> </p>
+<center> <p>
+<img src="https://lh4.googleusercontent.com/gafFsevNNQur2Ip33KsQK1YX6DfdGl3OXeR_KH07_HCdwQCpYqkZpc2biCLwDkdXn0aAed2bMrez2AysyoJpHdxVqiSLqtxmFe9p3x2l0uXtk7_NgGaUDJSNbF86Duk6ugBYPzxZfBcuEorq" style="padding:5px;" width="350px" height="400px">
+<p1> </p> (Fleet Ilya A/W 12 Lookbook by Jeff Hahn) </p1> </center>
+<br>
+
+
+<div class="hr"> <span> </span> </div> <center>
+<p id="Date" style="color:#bca474">  19 March 2015 </center> </p>
+<h2> TEN INSTAGRAM ACCOUNTS TO FOLLOW NOW </h2>
+<p1> For Food </p1>
+<p2> <p> The Infatuation @infatuation
+Instagram account of a simple restaurant review website, The Infatuation, created by two friends to cover restaurants in New York, Denver and Chicago. Even if we might never visit these places, if you just want to drool over ultimate comfort food (burgers, pizza, pasta) look no further. 
+</p2> </p> <center>
+<p> <img src="https://lh5.googleusercontent.com/8jr5V0ZEunWi73w5WMs-i7FrGwuBc4PNNVGyYwcYnaQlnI-McqZz8EHG3SASpMH9z1eFnIsozsHYV82RjB9j4KJwRmfaFfxbNjBRW9kozAA2TgC-7vVg2x3150vv9kDjUa8K3Zc" style="padding:5px;"  width="250px" height="250px">
+ <img src="https://lh3.googleusercontent.com/xvb94gqYGdQpFVYUvb3M7PQGa9C9Glvc33TQ4wkeBN-GD7OG7xaVjCuZ81XKnPvMDZ8QZCqvp2CpdGWJCcPy9n_PfFR8LBufEevV69Bjk_EWDXs8ZNr5-2nGcuqC_F8kE0cJQjA" style="padding:5px;"  width="250px" height="250px">
+<img src="https://lh4.googleusercontent.com/A3km5S9CV7QhhJ9L4oyHPDJzaMZu3p6XamvUQHFbH1Z6LCZQSO8N74HN1rcZK1O1DiXldJBjSr9cVAsK2K_IoKLNnZMq2d6la33gF6vtRoFhGdbO4rjl5g10Io5fZQJJFl7LcBE"  style="padding:5px;" width="250px" height="250px">
+<img src="https://lh3.googleusercontent.com/6X149XSLXbxjeZSeQ0M6tap4Y4qjXNj9I3Y-R8F8jMw_TNP-KvVyBeBEkre7YFVmLwmInciMAA1qBDYJdjwJSzc1xFe5boDaiCLYaYf76UdOC6a8GtnVOKPoBNr6RrAvyIBPVjM" style="padding:5px;" width="250px" height="250px">
+
+</p> </center>
+<p2> <p>
+Jamie Oliver @jamieoliver
+We all know Jamie Oliver, he doesn’t need any introduction. His Instagram is beautiful.
+</p2> </p>
+<center> <p>
+<img src="https://lh6.googleusercontent.com/BfgrB2auECI9f9Kmcld6nLolVWlONyOrep9T9LnTW2UuWSMlKmIVPsV1Voru-L26_g6NT3hrDYhQWkl_3WNl_GB4x3KnRr6CDRxg4D4Suz9m4hS8vYR8dcOUWghRAuEz4wFysIc" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh5.googleusercontent.com/fCpL7Vr59VIM1S8jSWzjjGPnaOgWtvSFD8aEIVb-1GH1Jq6bF6rHtOP0wM97StubIZIn8bPRPSHzNrKafCIegvfGynHdGDC9Psuiz1TH85IXA4BYIL96gXrZ4FQbUwwfCkQiaLw" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh6.googleusercontent.com/RINevtRO8SzS3_fKC7GVmDjQXJPUnVUuBvdoAPqI7BIBmCcQUfJSBQrLr-bWp2pUpVQzTbztwW5FEgIQa02ep-g7ZZTzWvYvy9tQGyJqxUO7ksh5ylE9EoYnj98xZEDD7MX585o" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh3.googleusercontent.com/SXcrMV_1lW-o_2Vln_TtmTPIWQV5eYzp0hVB5mi7WH7J_wFGgoZT-5E1JtLcbTK_J5vIhRspG4ensl8-3H7Efbk1yV9PrMelBFOfEGhd80JRj6tsXrGisfbKItf_KOLn9829dmo" style="padding:5px;" width="250px" height="250px">
+</center> </p>
+<p2> <p>Hemsley + Hemsley
+Authors of “The Art of Eating Well” Melissa and Jasmine Hemsley create (and then snap) the most gorgeous, HEALTHY meals. And surprisingly (for health food) the ingredients aren’t crazy- lots of normal, source-able at SuperValu vegetables. Full disclosure- following this account will increase the likelihood of you investing in an appliance that turns veg into spaghetti.
+</p2> </p>
+<center> <p>
+<img src="https://lh3.googleusercontent.com/perQbE8gcPjrOpiKVvsGdOeUoE6YsUWZnEjAkvogQMVFZs1DSPlWZeIiyloZA0cUr2SyRzTnGW-8r4j3nKyMTktiiHh9Y6ZfN7mZTW7gp2RmOAsjyvG-T-Ep1riZ5NSwFTEdBU0" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh3.googleusercontent.com/OuQ314Km22WueXA98xF4snRaDntvAcINAAS204FXORuiPUjmQgExBgtV0_10LUZAKiKdpWiND0uEokjcxi-k07CV1k-rRwmeB4rZze3DA6HQ16cbY7BDs9Kn63D4BFpnlmfHHcw" style="padding:5px;" width="250px" height="250px">
+<img src ="https://lh4.googleusercontent.com/6aFeyB-6Qe_WLoKn3vzLkR-v8pYWnauOkWJblf-HguY_QtJsr__T35fEIISMiNqwXrpdBiqqXY4478TMRAsyQ6ZGVhER2J394lIP2MyhXl1n3Q9Ae9RCGMp1R60CIjTDbYiv8gU" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh5.googleusercontent.com/Gg2y-vxXm3S0HYoCGvM68pBO6lFvxpauzLWRut06A5bznsHUVthVVyfbtHl4wraTZ7DFjCIwVkRM9gm9dBef0IjfAUv8-3eCX3cSFs7Ve-ainuvgpyboFl2jjqd0w3wlCHU_DCI"style="padding:5px;" width="250px" height="250px">
+</center> </p>
+<p1> For Fashion </p1>
+<p2> <p>
+Thessy Kouzoukas @thessy_saboskirt
+Co-Founder of Australian clothing brand Sabo Skirt, Thessy makes life in Australia look like an endless, sunny runway. She is a walking advert for her brand, and for a natural tan!
+</p2> </p>
+<center> <p>
+<img src="https://lh4.googleusercontent.com/SWjRuEMQGIq38TOjUsHdkvavbp68uRxm3pRI8cZYq1YLGlBPJqgU5fqN9Mymz7DjzRO8ZrAEpwpA0Hevn0N1S_DernWR1J9dAD36v23-_PNGvBm1wK3CGNA-GKNOYHBZAxTww4k" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh5.googleusercontent.com/OUyVniPyLeWe_e9VAH6wRAA22L9i-cVJ7FrgrrpypQLsGophcTDXH0yHfyOPRsYUEKJjKrUCxI8QQa9J_XMr1FtLm5xj1U1xjJqtmHEWkyQnJgY7IjnWY_7Fv5LnK4wV8YsH0GU" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh4.googleusercontent.com/C4Vw3SastvHiI81pXwx9lgsiQUEGK73-EzWNuLPLAHKYgINfXacgEjd9pv3B-dhqOKRpqfHiBgBuv6uU63Zn4Ua1N7UiizO0aQuA2wQ68-e9_wtbcKdUbs0XP1w8NDM9EL_SWPs" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh5.googleusercontent.com/Wk1iMHqBRgIeG_u_h1kjoLiPBNXh92T4CzrEocMh6i5DZECG9__sBR5CwQ-_bWVDGTFGHrcvkVfRGH2utKjX33xmYUlY8gYc5-XMfXIIgWv6eJzSMA-dD-D95Nr-wF03g0iyTzE" style="padding:5px;" width="250px" height="250px">
+</center> </p>
+<p2> <p>
+Olya Slovo @olyaslovo
+Account of stunning Russian stylist, DJ, and founder of fashion and beauty site selfmadestudio.ru. While her captions and website are infact in Russian (slight hurdle), her style speaks volumes in itself. Inspiration for lovers of atypical fashion.
+</p2> </p>
+<center> <p>
+<img src="https://lh5.googleusercontent.com/eI1_-HQtl6aK4DQhD6f7zbyrt5wq8tBUsSZJFx_t5hoR1ZXKTfVBBvq66fhiSHImJcE4SH_zXCPfiO5zz2-1hI6d_OXTzO4PGG1ZqPSsyiKtGP-oWAhyrv48f_S7CsSjyAuRf80" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh6.googleusercontent.com/UJPYix7dkYyxnzP9G5zcR7P9PeYktq5Tcg6FDCQjT8pKWlNRCGprca_c8-Mx_hiz3OCc8CIy1Kis05_Fb1SHLov4wNRHKC4JDHlRuVFMc9HBx04pYH_yh1bLkVsJXswPtE8pGUY" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh3.googleusercontent.com/R-S_7qxp-ejTJvc5Eri8UNyTiIF8SI37-iD4gcQ179FugsmFUV3bjsQNonFTtjpWdk94A3QtsYXVqST7mXUZlnpAsD9cpfqBPKUKd8DhBIUCj0G1Jx98wH1PR55vtmFRw5aUNDU" style="padding:5px;" width="250px" height="250px">
+<img src ="https://lh4.googleusercontent.com/P4NZ5yq-4P-uE-k5wIWEF_Cbk9xYY9LgS0UWmDVM90-5MCAmZJ18DLWyWh9uPA0evzko9lLk_Jz6r3mw2vVChM2ADVefE4pkCjOH10v3Vyt4Cd7UNV5XQBjXHriGJJWUzFkIrS4" style="padding:5px;" width="250px" height="250px">
+</center> </p>
+<p2> <p> Julie Sarinana @sincerelyjules
+L.A Fashion Blogger gives you all the daily life and casual fashion inspiration you could want on a rainy day in Galway.
+</p2> </p>
+<center> <p>
+<img src="https://lh3.googleusercontent.com/SCksi7XhiJXUwuJaOSR26pfRSxq9WGvTo1PYIthPzIU2P4Fv9dvKlAEmLxnk6BFTStAovAQtM6KWURXgUa1vm7vJU-zMqi5EnWtRtvOdQQLXT1d2rh8LohwlbzIMRQ1NSfLun2w" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh6.googleusercontent.com/E1Z9_jarsV2YCXve5mnxaQceqVmCOc0RF6L9TSrL24i9bcp5JFKZSxHvbAiqW45xXr9vHo2vvEX8AVSTEiwGIp5dxIATNIo65sW9Q_J18qFWzxfipkkLIhCm_GyoUVqiwIhuH3c" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh3.googleusercontent.com/a8O0HXCyoJ_GHBDBjCgXsjDDB4a-Bziwc-0TNEugaJB6vgt-lFzUz6JI8HMgr-Uu6uYcCdDFH7MFv8NMmGaziA8xr7Isi2sxnown0BH-0U7lfvjOSg1ysLXwe9TEYGePYmp4XEk" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh6.googleusercontent.com/m567aQ5kmW_WegXVytU0u-GQNdzCrVPB1sfQc2-TYP6DcVrYe-yaSxkTY103sP__1be69HSa9mSRhlv5lfqjLJRYZJ9MFlUdC9Cqh2ZAo03IQgy6BoDvByAIJ-uToC5Heasc38k" style="padding:5px;" width="250px" height="250px">
+</center> </p>
+<p2> <p>
+Elin Kling @elinkling
+Swedish minimalist Elin Kling, founder of fashion website elin-kling.com, documents life in New York City as the most effortlessly stylish blogger (in my opinion) of all time. She will make you question why you ever thought you needed half of the things in your wardrobe, the less is more saying was never so true.
+</p2> </p>
+<center> <p>
+<img src="https://lh4.googleusercontent.com/qKP4pBCJvAyWVKz-MxtWqez24n4JEjLYT5oWPn25hmzI91YjoqGcYTqsHgJmeELHv6ReC3nV4f6yEQ182yAEAMJ-OMZ9HaSdUS-leUBIeytE_rYfpo1kFvjnm-0-s9NLs5eXDj4" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh5.googleusercontent.com/LYbTwzVIvESpFE_7KOdh9WyoSJ-AxpRwMOsJth5HKtbv4p-kRMrzlvoD5QVPWW3c3Xxb64iPTOoM0EfNmgZt87wqtADfb1yal09GMAK4-fmTVA7DMpq_Hjv2kzL3QyKR5Cbqbvk" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh3.googleusercontent.com/a8O0HXCyoJ_GHBDBjCgXsjDDB4a-Bziwc-0TNEugaJB6vgt-lFzUz6JI8HMgr-Uu6uYcCdDFH7MFv8NMmGaziA8xr7Isi2sxnown0BH-0U7lfvjOSg1ysLXwe9TEYGePYmp4XEk" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh6.googleusercontent.com/m567aQ5kmW_WegXVytU0u-GQNdzCrVPB1sfQc2-TYP6DcVrYe-yaSxkTY103sP__1be69HSa9mSRhlv5lfqjLJRYZJ9MFlUdC9Cqh2ZAo03IQgy6BoDvByAIJ-uToC5Heasc38k" style="padding:5px;" width="250px" height="250px">
+</center> </p>
+<p2> <p>
+Olivier Rousteing @olivier_rousteing
+Creative Director of Balmain.  The Bordeaux born designers Instagram feed takes you through Balmain campaigns, runways and inside his personal social life as he parties with every supermodel, ever.
+</p2> </p>
+<center> <p>
+<img src="https://lh6.googleusercontent.com/deV8uDxYHkILL8wQOkWztUY6AFw-LwEq6o5EbaUoWCh0HUB8eyKpqmP1EjNrtVoU-o2jZqzoI4Sr3vLpCXpFS_M6LB-T3heCEehrm-ziJHWwXqanTsT7C28j9mciaTfBVHXN74E" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh3.googleusercontent.com/kNECKigdeQ-4VAljxFvDFW5O3qdIuYMwV2pU5AFKaAKCKOBlA01D9_yhICGGsKD0-rckw3DzcDu8Mh1r9xtBCAsYVaNljYRHQ-d8Ys-Z94vuORo9n1NACPFqsr5Y1Y3ZHS1lQC8" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh5.googleusercontent.com/8gMksqFKncP8Kp9gAB9pdlzqU-Q0tA3qz7QqOW3gXQ4x0DHrGjSfA-EwNwTAyDo95tXtiC1mKE2lzfpg5hVFDZwrnLyGeXVuCa_9t05LOXKsmIdYi7soqXWHbUccDYJ8uVB-7-M" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh3.googleusercontent.com/54Bz53lNn9aVlqkNlfOhPp8Mq6zFfL7QXFdiLXTxHUX0EvalsLqqclD87z7bvPU2QemyILWGn7gUZIGBava6KPVzUx_2ykoZkSNX2yNQ6OcWc4XFTPn3n7hKVlw7VMcvfsa2vuA" style="padding:5px;" width="250px" height="250px">
+</center> </p>
+<p1> For Travel </p1>
+<p2> <p>
+Murad Osmann @muradosmann
+Creator of the “FollowMeTo” project, Russian photographer Murad follows his beautiful girlfriend around the corners of the globe, producing stunning shots of classic global landmarks.
+</p2> </p>
+<center> <p>
+<img src="https://lh3.googleusercontent.com/7iC6doeYFZtnwOIyjOCCgqUOAQgRqsI0s7nHUBA1av4Bvs7G7wctx4ungz58scpkpg7yB_ZKNcrbfd3oz93bufNViVtjMXUaxojTWweWwgqZqS-mdsycV1p-_upTrFujeaP6b7w" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh3.googleusercontent.com/7v_iUnMJMkDkqFaZ0UQdDryjpG44Kzn6PxS9O3S9mR7cyoYNi48kUBHTrDrRPQlaCFEkHy_GMj4m2Ga5qQs5fFhUUkDOBAkFy3wsNuTvvQfu5Lmq5TBT7luS9cxUG-GBjrJs-Co" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh4.googleusercontent.com/9snToSVQ7muXwCpn224RgMRiQ7k5Se9KrsOkTS0tDkThAbaB6elPBXSvKNk4sNZMwE0s807zNMfJVSbFGdvxvBbTKBFCtXqGnlnJSPcyv9OPDxNFYemD88t5HT9h_A3Feqp6IsI" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh4.googleusercontent.com/w1TDgEAKe8c4c-1WryWSVYuYNoEyQNds7avd0KMSifgUu1ycLWHt0BEtG4dZ2ZTOpsP-2mwYv_HI7GIP4O4NuUUTfBizpFihD4Y8LWiIC0M2R0q-zJ-4jo8xVGYFgmxdxffCumc" style="padding:5px;" width="250px" height="250px">
+</center> </p>
+<p2> <p>
+Jessica Stein @tuulavintage
+You know when you’re on holidays, it’s roasting, and you’re just trying to keep your hair detached from the back of your neck whilst applying doses of mosquito repellent and factor 20? This blog isn’t like that at all. Tuula’s Instagram captures the most beautiful destinations in the world, looking absolutely flawless, in the perfect outfit for the occasion. It could be the ultimate travel inspiration blog.
+</p2> </p>
+<center> <p>
+<img src="https://lh5.googleusercontent.com/C105vRnpVKiKCMCnf68rrcrQ5D9__Wdoit-aUorMAoPK_bnIUK1VswBQ3vjGsWxoOvAfAmxcm_QBKghE1TbFWin_XuQtYUQyJXzaGpYSBkynyj5rdBoIyeOSGe4K5nvui0zW1VE" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh5.googleusercontent.com/wzJp-PKa1WT3ojiVizcxl_KPkaB-p685wK0-tvYx6NJ3zTf3wD460fxSylguZ-unFW-0dlzlQJy6WlCKiXyHNz8S_Fu4C-KTAwlbZyhiQEHvt2Z3FR6D0WjGW9txydyqCppJrig" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh5.googleusercontent.com/ibKYqCQ6DNMyIQZmJ0mvr7IDwfYjOw1ETFDLE03lxZu9sKiyyeMqHaDl_fjjZY_GZYQtoV9QQcyApXzqo9FBECEqu3NBugAnhNyCfj3ip3gDPJRY5zo5_CthLPuOjRVWiiiSu-Q" style="padding:5px;" width="250px" height="250px">
+<img src="https://lh4.googleusercontent.com/b5ijGNpjVWLzej-5Ewj4jJeayRJVWqq5an4N2rie8uruFW8Er2BfThYizn_LSa_RbZKDf9dRcB88aSRawV06ynlNcQz6aEiT-LbR-zeovJ_N8i3ku-GsoD_i3m06EMgDbA_9_4A" style="padding:5px;" width="250px" height="250px">
+</center> </p>
+<p2> <p>
+While you’re on a following rampage, make sure to follow US @NUIGSTYLE to keep up with all big society news and general college craic!
+</p2> </p> <br>
+<div class="hr"> <span> </span> </div> <center>
+<p id="Date" style="color:#bca474">  21 January 2015 </center> </p>
+<h2>  Personal Style </h2>
+<body>
+<br>
+<p1>
+Style is very personal.
+<br>
+It has nothing to do with fashion.
+<br>
+Fashion is over quickly.
+<br>
+Style is forever.
+</p1>
+<br> 
+<p2> <p>
+Personal Style is almost impossible to get right all at once. The problem with it is that it is continuously evolving. Your personal style five years ago is probably different from your style now, hell, the way you style last year could be radically different from today. This isn’t a bad thing it merely shows growth. As you grow up your taste changes (thank God). 
+</p2> </p> <p>
+<img id="titleimage" src="https://lh3.googleusercontent.com/tY-ym5Z6BHnjh22ZOU1YC8SbWtWsJNyejWzsv0FbqakbwJacMyNY7dGntEbRS_CfuAQNDxUujjY6D2C0WFapfGbDK4MsFwvtV1cEC_T-DZCh2OJ50yExUOKz5u6thFBfqcEoNVdZ8zk" style="padding:5px;" width="120px" height="200px">  </p>
+<p2> <p>
+There are so many styles to choose from that picking just one is elusive at best. What speaks to you? Forget about fashion trends, we have lots of different trends a year. They come and go just as easily as Taylor Swift’s relationships. You have to decide what particular look resonates with you. Don’t be afraid to mix and match. I’m loving the classic looks at the moment but I give them some edge.
+</p2> </p> <p>
+<img src="https://lh3.googleusercontent.com/p0SBiy2v6LgyKaLf50kuPalq6NFihpKqCG7tzKxupf69gOobAgCGlet0LAs5Gj9rlr0GKFZoE_ahHq5h0M0jcKxaChg43W0iy8T4NHkTLccKEgTRyRs2E2elgq6CO3BWqq2tbNYdIg0" width=180px" height="220px" style="padding:5px;">
+</p>
+ <p> <p2>
+Find out who inspires you. It can Rihanna, Emma Stone, Angelina Jolie Beyoncé or Blake Lively (#Obsessedwithher). A great way to get some inspiration is Pinterest (I cannot recommend it enough). You can start with your own closet, look at your favourite pieces and see what they say about you. After all style is all about individuality. Don’t be afraid to be yourself. Who wants to look like everyone else? (#Yawn).
+</p></p2> 
+<img src="https://lh4.googleusercontent.com/5tAmtv2Ae0f4KAufsI1GM1kqgzVbLZ8J1D0-HBCXVM8vEZUXtlT7Nqyw5uBxFD_Pu_bIVR0LzVSXgbSIJAxW8tP_o9SfvwmIDcFqSBEEe1O3jGhgjhDiaNXI4o3aBk1c85cQt5uZmqk" width="150px" height"250px" style="padding:5px;">
+<p> <p2>
+If you’re anything like me you have a few pieces in your closet that don’t fit the overall vibe. It might mean that it’s a style that you like, but aren’t fully comfortable in trying (that odd maxi dress, brightly coloured skirt or crop top). As your style begins to evolve this will happen, don’t shy away from it. Try it and if it doesn’t work for you, you now know so you can move on.
+</p></p2>
+ <img src="https://lh6.googleusercontent.com/g8NfEWU7cLaNMZhnSL_FZx9IC_nYwfVo_Br6dmWkpuvHg03jc6BbU7t1KNuNPlqU3sNKFtj3HL_eRo1RvgvxgJMEKdclCLX7-BRHvu1KuWt5Lpwri1W1007o0Oh1gghXVWLiR5gTOiU" width="270px" height="180px" style="padding:5px;">
+<p> <p2>
+Play to your strengths. If you have great legs show them off. If you have curves accentuate them. Wearing clothes that play up your best assets always looks stylish, no matter what is currently trendy. Choose a signature piece to top it off. This can be a coat, a hat, a handbag or a piece of jewellery. Audrey Hepburn had her cropped pants and ballet flats and Jackie O. had her oversized sunglasses. Personally, I love a nice statement necklace. It takes an outfit from drab to fab in tow seconds.
+</p></p2>
+ <img src="https://lh6.googleusercontent.com/iV2TtQM9TC3CAqhyiyY5pp0MF7AVsBUldOdv2jNWZBJL3mCcOzaxXDx3Z_dcdQajyU-WwzG65LhgqY8hIginu_dG9KNAP8MzepMxw8197rFCFXBLox4EJxu6ZLz6u0gfOKZ52eQBwGA" width="250px" heigth="200px" style="padding:5px;">
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?9f2a30d6243e581e8793488040b3f5de#" + 
+                              "http://nuigstyle.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1440451462&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbnVpZ3N0eWxlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=IEGIEMMIBD&K=dcf3e1dcad0a07b5e0d6d4168090564ba751bea52ac5c105ab121b60460f9c3e&R=https%3A%2F%2Fwww.google.ie%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1440451462&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbnVpZ3N0eWxlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=IEGIEMMIBD&K=218777fd81951fee64accff8588aeaea3d1b8c9e9efef12895f8774617461994&R=https%3A%2F%2Fwww.google.ie%2F"></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=6166a38356952b77ab8453004d8df522';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1440451462&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL251aWdzdHlsZS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6IjEwODcyMDY3OTk0MyIsImJsb2dpZCI6IjIxOTY5NTQ5NyIsInNvdXJjZSI6MzN9XX0=&U=AJFAKONILM&K=b54189b8855bb3bd8765a89fab448d006787d442e567c9d4ba5fd1e96de40cfb&R=https%3A%2F%2Fwww.google.ie%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1440451462&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL251aWdzdHlsZS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6IjEwODcyMDY3OTk0MyIsImJsb2dpZCI6IjIxOTY5NTQ5NyIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=AJFAKONILM&K=f5705b849236cd608d6b8de4e8543bdedb559f76f379e252cfc329a1f9c8aba4&R=https%3A%2F%2Fwww.google.ie%2F"></noscript><script src="http://assets.tumblr.com/assets/scripts/vendor/yahoo/rapid/rapid-3.31.js?_v=9e8a042c91b7a8da8c106cbb4d21fb3f"></script>
+<script src="http://assets.tumblr.com/assets/scripts/vendor/yahoo/rapid/rapidworker-1.2.js?_v=254296ec7f6a6b8135042f7b6ad9ee23"></script>
+<script>
+            (function() {
+                var YAHOO = window.YAHOO;
+                if (YAHOO) {
+                    var keys = {
+                        pd:'/',
+                        _li:0,
+                        b_id:219695497,
+                        i_rad:0,
+                        i_strm:0,
+                        test_id:'OTHER,Tumblr',
+                        anon_id:''
+                    };
+                    var conf = {
+                        webworker_file:'/assets/scripts/vendor/yahoo/rapid/rapidworker-1.2.js',
+                                                spaceid:1197719229,
+                        client_only:1,
+                        test_id:'OTHER,Tumblr',
+                        keys:keys,
+                        nol:1,
+                        fpc:true
+                    };
+                    YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                }
+            })();
+        </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=6166a38356952b77ab8453004d8df522';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=9e919b06b021f1d69b7097d4e283940a#src=http%3A%2F%2Fnuigstyle.tumblr.com%2F&amp;lang=en_US&amp;name=nuigstyle&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_2644e2bc0bb9_64.png&amp;title=NUIG+STYLE&amp;url=http%3A%2F%2Fnuigstyle.tumblr.com%2F&amp;page_slide=slide"></iframe>
+<div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="http://assets.tumblr.com/assets/html/iframe/teaser.html?_v=1db540eacfb40ae73586cdb51b52794a#src=http%3A%2F%2Fnuigstyle.tumblr.com%2F&amp;lang=en_US&amp;name=nuigstyle&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_2644e2bc0bb9_64.png&amp;title=NUIG+STYLE&amp;url=http%3A%2F%2Fnuigstyle.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=0d82b8b78271cf80d23000dc54274deb");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body> 
+<div class="hr" align="bottom"> </div> 
+</td>
+<td width="45px" height="150px"> </td>
+<td width="230px" height="100%" valign="top"> 
+<center>
+<form action="/search" method="get" class="sfm" name="theform">
+    <input type="text" name="q" value="" onclick='this.value = "";' id="sf"/>
+    <input type="image" value="Search" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSoWjysJ6QbCoSKkrx0Q8wjljcHxifhbIR0xe-lhfa4JMzUEVM3" id="sb"/>
+</form> </center> <br>
+<table class="infolist" style="border:1px solid black;overflow:hidden;width:230px;height:10px;" body bgcolor="FFFFFF" allowtransparency="true" border="0" align="top">
+
+<th id="outline" bgcolor="white" height="30%" style="border:1;"> <font color="black" face="lora"</th> Contact </font>
+<tr></tr></table>
+<ul style="list-style-type:none"> <center>
+<li> <a href="https://www.facebook.com/NuigStyleSociety?ref=ts&fref=ts" target="_blank"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAAUVBMVEVtbnH///+pqatnaGx3eHtqa25lZmliY2b7+/tcXWDFxcZgYWXx8vJ1dXjU1NW3t7iIiYvf3+DNzc6bnJ7p6uqTk5V8fX+wsbK9vb6io6SCg4aLEY8LAAADrklEQVRYha3Z2YKrIAwA0FgGENxwa3X+/0MvUju1CgnQm6d50DMpIhICRWyUtYsy+gaIuKZuu9HcGy5s8OZuxq6t/wNdDyNTknHOYQ/7p5CKjwPF47Q2QjLwBpPC6Fy6X5XgfnfPX6i1z6B7E8r3M/c5iAfoySg04UPqykwp9E1Gwg6vbtF0y0Q8vIUQvlHx0GuVBm/hS/xC1z+JKe+J3y/T/Ez3+HwLB2fnQTnRQ8ZgvKIaMHpQ+TKAGsK0/kq2tg7R7ZeytVs/3dPjzJn4C+8yUPU+uiQnHVM/a6f3WFavLUoPfSdmHeOPj6nbSu/v+r3SNyJpYU7vhJ8GcTvT1CMUY1FE0aD6E93gMr+f5SDNm0+aGg55XZNDNIjHka6J4eCX4UBoUPWBnonZUXnW4zDN5zc9US+LusoIvQ8fxCR9mKzb6PUulvDjeaYNESP9OdStrFxgD96N9kbfqF0BO36eqLfW3fB40iUxp0/0TwTt5ralW3LFS6bdlLL0SO6S0mm2OppeptNpEBsd8QUQ6bSaLN2h48EbG/A40L/NHng2i6UNmoWqyy0OdPmMog+/jeDeGiCmngru/ZEXfaN/Cqjx5TRMa/xGUQPxFMP0A5+zVQ8D+rsQmngd5ADIAobT+OO3UwSI3xWmiWWKdUAse0GaWtTYDUb8n4dp6vOxUrR4dDaOu8Slc0Et8nykaNg2kMdKpWyQ3eRn1mvMRyN9edrGmvx65dIP6CIKrhzazmtiKcinNdBfxjzariETvoZk03KCMuKyHNrCxS99aQZt93JA752yaHsLFMSCnUnL1tIlXYhm0Mptcej9YTrNjaM1OSLptNSOJr7pWbSon/trqijI2ARvZcFGk+96Ml21O03Vo8n0syp1tCbSTqXl8EdTlyfSe9X9pIn5l0jv51t7jY6/Nmn0q8rcaXxTmUa/jgpehxbo0UISLV8lxN8pToPckULbPfuZnpC0U2gxXWjs/JDP+h1EgfI+oTyc893CM5C/j/fwtUwearXj6eScdbx8DDEXfrowX9rCFCH6S/tTPp9ff2PLucDoYsw+G1fndsGlV9BFbNS8OS9n6drh6GO6SOdgnvaJp3lSzsmDUnmOGP3dpIGsVD5TZoNPCfTA1nicifPzw+miHlUUztQYqizD/cZ65VSTjUtYw71SrEta6jvSzORC3TXWRCZ6u9NiWHXluai4WQJ9xki6cP1oA0rJrcLdSl+pFMxdT/ekY5rdLv120LY6X/TQEskm0xnxD2duKGSl23LiAAAAAElFTkSuQmCC" border="0" width="70" height="70"> </a> </li> 
+<li> <a href="https://twitter.com/nuigstyle" target="_blank"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR4Ckrk8ni-A5cctMBxszX40JcPLfkrfA0ROvrWY3N5bnJgo6GNug" border="0" width="70" height="70" ></a> </li>
+<li> <a href="https://www.pinterest.com/nuigs/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAARVBMVEWZmZn///+jo6OdnZ37+/uvr6+enp6rq6vu7u7r6+vd3d339/ezs7PR0dGkpKSnp6fAwMC6urrDw8PPz8/Z2dnk5OTJycn4fi+DAAADfElEQVRYhY1XV6KEIAxEQaSIYsH7H/VJD0X35WtXYEgyaaDhVYhkjHPOmJTvmwbU/yyZUccybyMd13nRp+BvIF0AfukNlbLuFyf/AyDmrk97GQ/RgWgAzEG7x61gLX4BsHt9PW6FHvwTwCyfx61M1weA6lyPGyVu8gZwlJtXfV5CGCOucx/hwi77ABpuGm9IveTXDhYX2QOA5/HdkC4F8M9CWoAD6tiNGXmCHQ2AAvbfQPcnE9IfIrIr7grAZP/TK1zP1LKt47hui4ogGQGLAoBk+/AZjusxKYXXSF1WdJUQ4M4G6LCzIA7hidWu2gEAz9kzDTViXPAIbEqYJgNkBqk37ayP5xvPBD0lAJMVWLyv/Ca6jiAzqU8CNpeXoVIBp5Z0LsXLk3gMRE9QIYfkEgAyJtrclsv91t7xWbvZe+FKWo3cA6isp6NA7mA7sHkUVcjg2wNknbAzkzsGVYwdXK4ODOjkADIxgRnhrjMNQMCU2WJrAwLhiShLLoiBA2IvaEAyAFUWAHBOZQqCVDQARTWPjhgE6wDlLUC2OFgFwtbGEiKg1HgfFCaw7ILAC0hcNJMBSRAq3kpjf66mdkEsQxeIzo0NCJAQgs19CR4bAHzIU1i6Vj4gPsMPJNngy4IEFLWQ1i0lgL/XucVvF1nfWTYktAAhRa/kckDR0TjFAxQ+CMXyIXLxLs+Lm/9AiuZnfcDKdmgThOh0X+IYh9wQRamzLMA4cDsXYzeF/VdUOCR3tdvGQdnRrFCacykeOJqq7MRG4nDXAFaWmEtETXTTsVOZanZxuSB6E0kIGgfxSPhZMuYdU9SDLD6MqhZZnw/1YNjb86G6TydAIKpR1Vek2jFWfC4+tWdnwftFd48WHENdlaPsJHG+q2dGUcfY7AlUlX0him/ebX+r9BwCgKnhQ+L9GNlw6kyNG2fe5F1H5iEB1Cr4Iep6H1mzAmE+OMq1vU7lnvg+HABkqa3ufKtlZBCgimfdyZtaYuuLU1oxUtgAkd8cpGSJAERXq98K5Fk1DZoScLn/4jB1TjjqAoSnhRwfx9ECHg1g2JY6A3SLRFIw31+O+zIWp0n1akSUo3jAFQ+OOAzjj/uxKqtM/Wb6tN2q//1mso++L/5n0bw/23ejfIWY2uP9lythZxsFa/uIeQVwGJeeoivppBXrnn4HCNYwbjj7erv/APiP/AHnOyHZxohhKwAAAABJRU5ErkJggg==" border="0" height="70" width="70"> </a> </li>
+<li> <a href="https://instagram.com/nuigstyle/" target="_blank"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAALVBMVEX////Y2djX2Nfc3dzz8/Pk5OTw8fDh4uH8/Pzp6un5+fnm5+bs7ez19vXU1dQahpZqAAAD0UlEQVRYhe2Z2bbbIAxFAxgxOv//uWXwAGK206dWq6u3vY53joUkhPz5/Ld/xuQOYJU3C9suf4XVlgvGyGWMCaG213ipFaPOCDL3K/GKLoF/S+xJ/xLz1DXaCtLiHtIZfyJdwwAc4cQswzfR9ASiM6VXwNIt3hTYs4mABWfwsS9y4bNkmJd8wsWcU2BJ8il8nyDbB2TP3v4SeYb9lDz2yba8gim7lzz7C7KPkzZZizdkx27Gt1SvwM5YKy+fBDSS3Ugd7A7q9pORFfC6Syx+OgPbyIAj2dXo1nl0uA/NFGKJBFFeuUshR9sJsGcj3aSUrbE7upolWGeBAkPZSDRlXa2KBvOpvTF0Y5HvOO66aBmDiUKJLvMGELqvuovGrixSvI/mbTT55im54+sD1T00qlJomUeqP+Yb2rXKMnp2/lHsj0GEaGWchSevoNMYqVTTPtr5xNmngU5jpLIFlGgJyqgy10o0SZ0N5TdjtObU+/dLLIqtCpolpRUXvVL1tWlSavQQnTgbl6ZCdVIWXXMqR+gksnm5vQS0O8GE0irTZaY0FEUNALqOTqqmLNFRtXFLEm7Pr5FzfaopQ9K9RlZ2chafJqYWCvuv96WLqno2ZuhKWEfVrszz8NXoonqDPlS7yh6uI7SJN/1ENdon1DS67esDjZY5lM05hzQjhB+F3SLVMiDb6G7wXapDY5E3EsHVH9Wq1yQG5YE2xcXL1/Hh4HuzY/fl12cC3awh/Grj1MU+GqSNtlWnNaSsfBfayZbxI2EKQAnXV1A10UmRKQ8Dt0Po8Xh+diGEARld6G9ooKlI0DgnMtVXiyilPu+JnXgLbW5yZR1v1f7fkJd/1+N3dvT46846JmjHSY/4cuPHaKCF7tfzVHU44iuIdA3mWphGH5LvIri25apJPCIIzv0U6p5mNLon1D6jVEaqD/r5Vx9N0L4sqz2foX3bKuhQhjPDdTOgteI9s7VlosUBb6+pnjGUyVm+HIar33gIET2JUqIU7XftfIkmBzOoRlRvK4q2mNAtLXIHqYguDo7e3xPHXbT6tWPjp4ztMCI8/8Qf+L/4861xS20fW7TmOfbdpKXtDm/lkWaJ3Dshy7IbXiF351qyOC8tkEfB+nT81Ijo1B6OtujUkOOJv2lzoJX7Wy2Pt2YmqpENa05xO+fMHDjazifH+ZGsVl4XuIo2+66ALL+gmRvqU8rs0luIKHwzQ/jq643b9u4bFFdZl5yMpVvBCMHqwxeymV2oD9+sCS/u7u7D7T5GwXy89eh6A2u4b6+Fa86U/eEbx8B33bW3n0L/MfsD9AcjiXuOLmQAAAAASUVORK5CYII=" border="0" width="70" height="70"> </a> </li>
+</font> </center>
+</ul>
+<table class="Instagram"  style="border:1px solid black;overflow:hidden;width:230px;height:10px;" > <tr>
+<th bgcolor="white" height="10%"> <font color="black" face="lora"</th> Instagram </font>
+</tr> </table>
+<br> <iframe src="http://widget.websta.me/in/nuigstyle/?s=100&w=2&h=3&b=1&bg=F5F5DC&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:230px; height: 345px" ></iframe>
+</th></tr>
+<br>
+
+ 
+ 
+ 
+ 
+
+
+
+ </html>
