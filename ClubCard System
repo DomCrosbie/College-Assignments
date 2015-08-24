@@ -1,0 +1,28 @@
+using System;
+public class Clubcard
+{
+    public string Name;
+    public string Address;
+    public int LoyaltyPoints;
+
+    public void Customer()
+    {
+        Name = "Cian Clarke";
+        Address = "102 Center Street";
+        LoyaltyPoints = 250;
+    }
+    public void Display()
+    {
+        Console.WriteLine(Name);
+        Console.WriteLine(Address);
+        Console.WriteLine(LoyaltyPoints);
+    }
+    public string cName
+    {
+        get { return Name; }
+        set { Name = ""; }
+    }
+}
+
+
+
